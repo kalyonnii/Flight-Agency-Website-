@@ -14,7 +14,7 @@ useEffect(()=>{
 })
 
   return (
-    <div className="search container section">
+    <div id='seats' className="search container section">
       <div data-aos='fade-up' data-aos-duration='2500' className="sectionContainer grid">
 
         <div className="btns flex">

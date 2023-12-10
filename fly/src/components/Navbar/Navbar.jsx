@@ -63,19 +63,19 @@ const Navbar = () => {
         <div className={active}>
           <ul className="menu flex">
             <li onClick={removeNavbar} className="listItem">
-              Home
+              <a href="#home">Home</a>
             </li>
             <li onClick={removeNavbar} className="listItem">
-              About
+              <a href="#about">About</a>
             </li>
             <li onClick={removeNavbar} className="listItem">
-              Offers
+              <a href="#offers">Offers</a>
             </li>
             <li onClick={removeNavbar} className="listItem">
-              Seats
+              <a href="#seats">Seats</a>
             </li>
             <li onClick={removeNavbar} className="listItem">
-              Destinations
+              <a href="#destinations">Destinations</a>
             </li>
             <button onClick={removeNavbar} className="btn flex btnOne">
               Contact

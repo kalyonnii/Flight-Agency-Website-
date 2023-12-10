@@ -13,7 +13,7 @@ useEffect(()=>{
   Aos.init({duration:2000})
 })
   return (
-    <div className="info section">
+    <div id='about' className="info section">
       <div className="infoContainer container">
 
         <div className="titleDiv flex">
