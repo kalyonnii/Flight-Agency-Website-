@@ -18,7 +18,7 @@ useEffect(()=>{
 })
 
   return (
-    <div>
+    <div id='home'>
       <div className="home flex container">
         <div className="mainText">
           <h1 data-aos='fade-up' data-aos-duration='2500'>Create Ever-Lasting Memories With Us</h1>

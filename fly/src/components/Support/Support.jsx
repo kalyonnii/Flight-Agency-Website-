@@ -15,7 +15,7 @@ useEffect(()=>{
 })
 
   return (
-   <div className="support container section">
+   <div id='destinations' className="support container section">
     <div className="sectionContainer">
 
       <div data-aos='fade-up' data-aos-duration='2500' className="tittlesDiv">

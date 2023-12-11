@@ -15,7 +15,7 @@ useEffect(()=>{
   Aos.init({duration:2000})
 })
   return (
-    <div className="lounge container section">
+    <div id="offers" className="lounge container section">
       <div className="sectionContainer grid">
         <div data-aos='fade-left' data-aos-duration='2500' className="imgDiv">
           <img src={imageGrid} />
