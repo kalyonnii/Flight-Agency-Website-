@@ -1,11 +1,14 @@
 const express = require("express");
-const mongoose = require("mongoose");
+const { MongoClient } = require('mongodb');
+require('dotenv').config();
 const app = express();
 
-mongoose.connect("mongodb+srv://karthika:karthika@cluster0.guuzjnf.mongodb.net/?retryWrites=true&w=majority").then(()=>{
-    console.log("Database is Connected successfully")
-})
+const uri = process.env.MONGO_URI;
+const client = new MongoClient(uri);
 
+client.connect().then(()=>{
+  console.log("Database is connected successfully")
+})
 app.get('/',(req,res)=>{
     res.send('hello world!');
 })
