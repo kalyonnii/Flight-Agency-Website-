@@ -1,9 +1,10 @@
 const express = require("express");
 const { MongoClient } = require('mongodb');
-require('dotenv').config();
+var dotenv = require('dotenv');
+dotenv.config();
 const app = express();
 
-const uri = process.env.MONGO_URI;
+const uri = "mongodb+srv://karthika:karthika@cluster0.guuzjnf.mongodb.net/?retryWrites=true&w=majority";
 const client = new MongoClient(uri);
 
 client.connect().then(()=>{
