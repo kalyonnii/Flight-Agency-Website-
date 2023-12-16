@@ -13,10 +13,11 @@ import Subscribe from './components/Subscribers/Subscribe';
 import Footer from './components/Footer/Footer';
 
 import {Route , Routes} from 'react-router-dom'
+import Flightselection from "./components/Flightbooking/flightselection";
 const App = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar />
       <Home />
       <Search/>
       <Support/>
@@ -24,7 +25,8 @@ const App = () => {
       <Lounge/>
       <Travelers/>
       <Subscribe/>
-      <Footer/> 
+      <Footer/>  */}
+      <Flightselection/>
 
 
 
